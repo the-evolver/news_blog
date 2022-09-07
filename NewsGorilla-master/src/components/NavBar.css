@@ -1,0 +1,31 @@
+
+
+/* hide close when burger shown */
+.navbar-toggler.collapsed .close-icon {
+display: none;
+background: red;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+display: inline;
+background: red;
+}
+.navbar-dark .navbar-toggler-icon {
+    display:-webkit-flex;
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    justify-content:flex-end;
+}
+
+.left {
+    margin-right:auto;
+}
+img.roundCorner {
+    clip-path: circle();
+    border-radius: 50%;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 19px 43px;
+    transform: translate3d(0px, -4px, 0px);
+  }
